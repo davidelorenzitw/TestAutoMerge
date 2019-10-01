@@ -24,7 +24,6 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          LABELS: "!wip,!work in progress,documentation-updated"
-          AUTOMERGE: "ready-to-merge"
-          AUTOREBASE: "ready-to-rebase-and-merge"
+          LABELS: "!WIP"
+          AUTOMERGE: "automerge-when-ready"
           MERGE_METHOD: "squash"
