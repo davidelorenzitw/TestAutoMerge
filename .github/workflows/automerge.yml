@@ -27,3 +27,4 @@ env:
           LABELS: "!WIP"
           AUTOMERGE: "automerge-when-ready"
           MERGE_METHOD: "squash"
+          COMMIT_MESSAGE_TEMPLATE: "pull-request-title"
